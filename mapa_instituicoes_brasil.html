@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_691297307e8d595544ecfe969edbc710 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_691297307e8d595544ecfe969edbc710" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_691297307e8d595544ecfe969edbc710 = L.map(
+                "map_691297307e8d595544ecfe969edbc710",
+                {
+                    center: [-14.235, -51.9253],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0f05213433e79aa26ec3bd890615a633 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_0f05213433e79aa26ec3bd890615a633.addTo(map_691297307e8d595544ecfe969edbc710);
+        
+    
+            var marker_95459f11146aaf65b47752b8fd4b3e42 = L.marker(
+                [-21.178, -47.8103],
+                {}
+            ).addTo(map_691297307e8d595544ecfe969edbc710);
+        
+    
+        var popup_9582872d7090ed371f854af9efe54bf6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c35a3dfa6bfb21bfb255bcd9c6a01bc = $(`<div id="html_4c35a3dfa6bfb21bfb255bcd9c6a01bc" style="width: 100.0%; height: 100.0%;">Faculdade de Medicina de Ribeirão Preto – USP</div>`)[0];
+                popup_9582872d7090ed371f854af9efe54bf6.setContent(html_4c35a3dfa6bfb21bfb255bcd9c6a01bc);
+            
+        
+
+        marker_95459f11146aaf65b47752b8fd4b3e42.bindPopup(popup_9582872d7090ed371f854af9efe54bf6)
+        ;
+
+        
+    
+    
+            var marker_9951d84547306f53c25f9139627c0496 = L.marker(
+                [-22.8904, -48.4436],
+                {}
+            ).addTo(map_691297307e8d595544ecfe969edbc710);
+        
+    
+        var popup_f3305def087edbccc1b7378aa92c35e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_853cbb126ee949bb645aafb211a443e9 = $(`<div id="html_853cbb126ee949bb645aafb211a443e9" style="width: 100.0%; height: 100.0%;">Faculdade de Medicina de Botucatu – UNESP</div>`)[0];
+                popup_f3305def087edbccc1b7378aa92c35e2.setContent(html_853cbb126ee949bb645aafb211a443e9);
+            
+        
+
+        marker_9951d84547306f53c25f9139627c0496.bindPopup(popup_f3305def087edbccc1b7378aa92c35e2)
+        ;
+
+        
+    
+    
+            var marker_c911dd077f45452f941de63901c830cd = L.marker(
+                [-18.9335, -48.271],
+                {}
+            ).addTo(map_691297307e8d595544ecfe969edbc710);
+        
+    
+        var popup_d311ffea23c361b5f9464cd3608056a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba49d9cd78e6cc1b4b66c09978982da2 = $(`<div id="html_ba49d9cd78e6cc1b4b66c09978982da2" style="width: 100.0%; height: 100.0%;">Universidade Federal do Triângulo Mineiro</div>`)[0];
+                popup_d311ffea23c361b5f9464cd3608056a7.setContent(html_ba49d9cd78e6cc1b4b66c09978982da2);
+            
+        
+
+        marker_c911dd077f45452f941de63901c830cd.bindPopup(popup_d311ffea23c361b5f9464cd3608056a7)
+        ;
+
+        
+    
+    
+            var marker_7f7e7e602b52e8ca095301669a9e30aa = L.marker(
+                [-12.9714, -38.5014],
+                {}
+            ).addTo(map_691297307e8d595544ecfe969edbc710);
+        
+    
+        var popup_5db9cae9b8ddde3957e5bdc118a4a0c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da581e580f3fb423b463e4f64c85cdf3 = $(`<div id="html_da581e580f3fb423b463e4f64c85cdf3" style="width: 100.0%; height: 100.0%;">Universidade Federal da Bahia (UFBA)</div>`)[0];
+                popup_5db9cae9b8ddde3957e5bdc118a4a0c4.setContent(html_da581e580f3fb423b463e4f64c85cdf3);
+            
+        
+
+        marker_7f7e7e602b52e8ca095301669a9e30aa.bindPopup(popup_5db9cae9b8ddde3957e5bdc118a4a0c4)
+        ;
+
+        
+    
+    
+            var marker_66852deb4dfb18f0784729a4a00fbd2c = L.marker(
+                [-9.6656, -35.735],
+                {}
+            ).addTo(map_691297307e8d595544ecfe969edbc710);
+        
+    
+        var popup_5cce8c3b85f9f4d0e53a79becbe6a636 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d174cf61613c6c2a841679871df22ca5 = $(`<div id="html_d174cf61613c6c2a841679871df22ca5" style="width: 100.0%; height: 100.0%;">Universidade Federal de Alagoas (UFAL)</div>`)[0];
+                popup_5cce8c3b85f9f4d0e53a79becbe6a636.setContent(html_d174cf61613c6c2a841679871df22ca5);
+            
+        
+
+        marker_66852deb4dfb18f0784729a4a00fbd2c.bindPopup(popup_5cce8c3b85f9f4d0e53a79becbe6a636)
+        ;
+
+        
+    
+    
+            var marker_83268647444c7d0b2b4b21022758d1f7 = L.marker(
+                [-5.7945, -35.211],
+                {}
+            ).addTo(map_691297307e8d595544ecfe969edbc710);
+        
+    
+        var popup_75dc6a14087c1e94793ba3a9df00d3b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1eb1f224756f2ac4c94c06e226aca9eb = $(`<div id="html_1eb1f224756f2ac4c94c06e226aca9eb" style="width: 100.0%; height: 100.0%;">Hospital Universitário Onofre Lopes (HUOL) (Natal-RN)</div>`)[0];
+                popup_75dc6a14087c1e94793ba3a9df00d3b0.setContent(html_1eb1f224756f2ac4c94c06e226aca9eb);
+            
+        
+
+        marker_83268647444c7d0b2b4b21022758d1f7.bindPopup(popup_75dc6a14087c1e94793ba3a9df00d3b0)
+        ;
+
+        
+    
+    
+            var marker_849955bfa161c92be00978e9c65b4f8e = L.marker(
+                [-23.6074, -46.7325],
+                {}
+            ).addTo(map_691297307e8d595544ecfe969edbc710);
+        
+    
+        var popup_759cb6a11fe1d93bbd94670c3c0fe179 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0bc015699b9bff62bc423c2a6c7a74a0 = $(`<div id="html_0bc015699b9bff62bc423c2a6c7a74a0" style="width: 100.0%; height: 100.0%;">Hospital Israelita Albert Einstein</div>`)[0];
+                popup_759cb6a11fe1d93bbd94670c3c0fe179.setContent(html_0bc015699b9bff62bc423c2a6c7a74a0);
+            
+        
+
+        marker_849955bfa161c92be00978e9c65b4f8e.bindPopup(popup_759cb6a11fe1d93bbd94670c3c0fe179)
+        ;
+
+        
+    
+    
+            var marker_779491b6f96f1a2c834292ce66d222d2 = L.marker(
+                [-30.0346, -51.2197],
+                {}
+            ).addTo(map_691297307e8d595544ecfe969edbc710);
+        
+    
+        var popup_70d6ecd06441b7134ceea5fd38f90ef6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53dfd8e7dc7e38e0416dd6155bffbb7c = $(`<div id="html_53dfd8e7dc7e38e0416dd6155bffbb7c" style="width: 100.0%; height: 100.0%;">Universidade Federal do Rio Grande do Sul (UFRGS)</div>`)[0];
+                popup_70d6ecd06441b7134ceea5fd38f90ef6.setContent(html_53dfd8e7dc7e38e0416dd6155bffbb7c);
+            
+        
+
+        marker_779491b6f96f1a2c834292ce66d222d2.bindPopup(popup_70d6ecd06441b7134ceea5fd38f90ef6)
+        ;
+
+        
+    
+    
+            var marker_4e2ee73708afe1bdec918328b60fcc86 = L.marker(
+                [-3.7172, -38.5437],
+                {}
+            ).addTo(map_691297307e8d595544ecfe969edbc710);
+        
+    
+        var popup_4072f5745c353e6ac8850707716b4fa6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2eb0cb8dced739ab23b6b113bccb7c52 = $(`<div id="html_2eb0cb8dced739ab23b6b113bccb7c52" style="width: 100.0%; height: 100.0%;">Hospital Geral de Fortaleza / Universidade Federal do Ceará</div>`)[0];
+                popup_4072f5745c353e6ac8850707716b4fa6.setContent(html_2eb0cb8dced739ab23b6b113bccb7c52);
+            
+        
+
+        marker_4e2ee73708afe1bdec918328b60fcc86.bindPopup(popup_4072f5745c353e6ac8850707716b4fa6)
+        ;
+
+        
+    
+    
+            var marker_c861527ac13e75ef8ca92c5c56d98ebd = L.marker(
+                [-23.6122, -46.6528],
+                {}
+            ).addTo(map_691297307e8d595544ecfe969edbc710);
+        
+    
+        var popup_1cff892ead72306b1ef264008c6977de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17c0ff8d19ec95a712b493a17b357235 = $(`<div id="html_17c0ff8d19ec95a712b493a17b357235" style="width: 100.0%; height: 100.0%;">UNIFESP</div>`)[0];
+                popup_1cff892ead72306b1ef264008c6977de.setContent(html_17c0ff8d19ec95a712b493a17b357235);
+            
+        
+
+        marker_c861527ac13e75ef8ca92c5c56d98ebd.bindPopup(popup_1cff892ead72306b1ef264008c6977de)
+        ;
+
+        
+    
+</script>
+</html>
